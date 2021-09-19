@@ -1,0 +1,39 @@
+h1 {
+  font-family: "Gochi Hand", cursive;
+  color: #21b4aa;
+  font-weight: 600;
+}
+h2 {
+  color: #21b4aa;
+}
+
+strong {
+  color: #21b4aa;
+  font-size: 60px;
+}
+.row {
+  margin-top: 40px;
+}
+button {
+  border: 1px solid #21b4aa;
+  position: relative;
+  top: -20px;
+  right: 20px;
+  border-radius: 30px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  color: #21b4aa;
+  font-size: 16px;
+  background: transparent;
+  padding: 15px 40px;
+  transition: all 200ms ease;
+}
+
+button:hover {
+  background: #21b4aa;
+  color: #fff;
+}
+
+.coder {
+  text-align: center;
+}

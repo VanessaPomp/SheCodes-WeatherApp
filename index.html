@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=PT+Mono&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            Weather
+        </h1>
+        <p>
+        <div class="row">
+            <div class="col">
+                <form id="city-search">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="city-input" aria-describedby="emailHelp"
+                            placeholder="Enter a city..." width="200" />
+                    </div>
+                    <button>
+                        Search
+                    </button>
+
+                    <h2>
+                        Madrid
+                    </h2>
+                    <small>
+                        <em>
+                            Sunny
+                            <br />
+                            <span class="date" id="date-selector">
+                                Last updated Sunday: 11:45
+                            </span>
+                        </em>
+                    </small>
+                </form>
+            </div>
+        </div>
+        <p>
+        <div class="row">
+            <div class="col-2">
+                <img src="media/sun.svg" alt="Sun" width="100">
+            </div>
+            <div class="col-2" id="temp">
+                <strong>
+                    32°C
+                </strong>
+            </div>
+            <div class="col-12">
+                Percipitation: 0%
+            </div>
+            <div class="col-12">
+                Humidity: 26%
+            </div>
+            <div class="col-12">
+                Wind: 5km/h
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Sun
+                <div class="row">
+                    <div class="col-12">
+                        🌞
+                    </div>
+                    <div class="col-12">
+                        42°C
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                Mon
+                <div class="row">
+                    <div class="col-12">
+                        🌞
+                    </div>
+                    <div class="col-12">
+                        42°C
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                Tue
+                <div class="row">
+                    <div class="col-12">
+                        🌞
+                    </div>
+                    <div class="col-12">
+                        42°C
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                Wed
+                <div class="row">
+                    <div class="col-12">
+                        🌞
+                    </div>
+                    <div class="col-12">
+                        42°C
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                Thu
+                <div class="row">
+                    <div class="col-12">
+                        🌞
+                    </div>
+                    <div class="col-12">
+                        42°C
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </p>
+    </div>
+    <div class="coder"><a href="">Open-source code</a> by Vanessa Pomp</div><br>
+    <script src="src/index.js">
+        console.log(weather);
+    </script>
+
+</body>
+
+</html>
