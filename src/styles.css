@@ -36,5 +36,10 @@ button:hover {
 
 .coder {
   text-align: center;
-  text-decoration: dotted;
+}
+
+.units {
+  position: relative;
+  font-size: 16px;
+  top: -32px;
 }
